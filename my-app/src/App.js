@@ -1,6 +1,7 @@
 import './Styles/Intro.scss';
 import './Styles/About.scss';
 import './Styles/Projects.scss';
+import './Styles/Skills.scss';
 
 import './Scripts/carouselAbout.js'
 
@@ -355,6 +356,126 @@ function App() {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="skills">
+          <div className="row13">
+            <h2 className="scriptSkills scriptSkillsLeft">
+              Languages
+            </h2>
+            <div className="skillsLineEmbellish">
+
+            </div>
+          </div>
+
+          <div className="row14">
+
+            <div className="row14-1">
+              <div className="skillCircle">
+                <h2 className="normalHeading normalHeadingSkills">
+                  Java
+                </h2>
+              </div>
+            </div>
+
+            <div className="row14-2">
+              <div className="skillCircle">
+                <h2 className="normalHeading normalHeadingSkills">
+                  C#
+                </h2>
+              </div>
+
+              <div className="skillCircle">
+                <h2 className="normalHeading normalHeadingSkills">
+                  JavaScript
+                </h2>
+              </div>
+            </div>
+
+            <div className="row14-2">
+
+              <div className="skillCircle">
+                <h2 className="normalHeading normalHeadingSkills">
+                  Python
+                </h2>
+              </div>
+
+              <div className="skillCircle">
+                <h2 className="normalHeading normalHeadingSkills">
+                  SQL
+                </h2>
+              </div>
+            </div>
+          </div>
+
+          <div className="row15">
+            <div className="skillsLineEmbellish skillsLineEmbellishRight">
+
+            </div>
+            <h2 className="scriptSkills scriptSkillsRight">
+              Additional Skills
+            </h2>
+          </div>
+
+          <div className="row16">
+            <div className="skillBlock">
+              <h2 className="normalHeading normalHeadingSkills normalHeadingSkillsBlock">
+                CSS and HTML
+              </h2>
+            </div>
+
+            <div className="skillBlock">
+              <h2 className="normalHeading normalHeadingSkills normalHeadingSkillsBlock">
+                Object-Oriented Programming
+              </h2>
+            </div>
+
+            <div className="skillBlock">
+              <h2 className="normalHeading normalHeadingSkills normalHeadingSkillsBlock">
+                Database Management
+              </h2>
+            </div>
+          </div>
+          <div className="row17">
+          <div className="skillBlock">
+              <h2 className="normalHeading normalHeadingSkills normalHeadingSkillsBlock">
+                CI/CD
+              </h2>
+            </div>
+
+            <div className="skillBlock">
+              <h2 className="normalHeading normalHeadingSkills normalHeadingSkillsBlock">
+                Kubernetes
+              </h2>
+            </div>
+
+            <div className="skillBlock">
+              <h2 className="normalHeading normalHeadingSkills normalHeadingSkillsBlock">
+                RESTful APIs
+              </h2>
+            </div>
+
+            <div className="skillBlock">
+              <h2 className="normalHeading normalHeadingSkills normalHeadingSkillsBlock">
+                AWS
+              </h2>
+            </div>
+
+            <div className="skillBlock">
+              <h2 className="normalHeading normalHeadingSkills normalHeadingSkillsBlock">
+                Node.js
+              </h2>
+            </div>
+
+            <div className="skillBlock">
+              <h2 className="normalHeading normalHeadingSkills normalHeadingSkillsBlock">
+                React.js
+              </h2>
+            </div>
+
+          </div>
+
+
         </div>
 
       </div>

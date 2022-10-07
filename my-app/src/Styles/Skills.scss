@@ -1,0 +1,310 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+.row13{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.scriptSkills{
+    font-family: Great Vibes;
+    font-size: 7rem;
+    font-weight: 100;
+    color: #91B1CF;
+    margin: 4rem;
+
+    @media only screen and (max-width: 1900px) {
+        font-size: 6rem;
+        margin-right: 2rem;
+    }
+
+    @media only screen and (max-width: 1600px) {
+        font-size: 5rem;
+    }
+
+    @media only screen and (max-width: 1300px) {
+        font-size: 4rem;
+        margin: 2rem;
+        margin-right: 1rem;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        font-size: 3rem;
+    }
+
+    @media only screen and (max-width: 700px) {
+        font-size: 2rem;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 3rem;
+    }
+
+    @media only screen and (max-width: 400px) {
+        font-size: 2rem;
+    }
+}
+
+.scriptSkillsLeft{
+    @media only screen and (max-width: 1900px) {
+        margin-right: 2rem;
+    }
+
+    @media only screen and (max-width: 1300px) {
+        margin-right: 1rem;
+    }
+}
+
+.scriptSkillsRight{
+    margin-right: 2rem;
+    white-space: nowrap;
+    @media only screen and (max-width: 1900px) {
+        margin-left: 2rem;
+    }
+
+    @media only screen and (max-width: 1300px) {
+        margin-left: 1rem;
+    }
+}
+
+.skillsLineEmbellish{
+    height: 3px;
+    background-color: #91B1CF;
+    width: 100%;
+    margin: auto 4rem auto 2rem;
+
+    @media only screen and (max-width: 1300px) {
+        height: 2px;
+        margin: auto 2rem auto 1rem;
+    }
+
+    @media only screen and (max-width: 700px) {
+        height: 1px;
+    }
+
+    @media only screen and (max-width: 700px) {
+        margin: auto 1rem auto 0.5rem;
+    }
+}
+
+.skillsLineEmbellishRight{
+    width: 100%;
+    margin: auto 2rem auto 4rem;
+
+    @media only screen and (max-width: 1300px) {
+        margin: auto 1rem auto 2rem;
+    }
+
+    @media only screen and (max-width: 700px) {
+        margin: auto 0.5rem auto 1rem;
+    }
+}
+
+.row14{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    @media only screen and (max-width: 550px) {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.row14-1{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    width: 20%;
+    justify-content: center;
+
+    @media only screen and (max-width: 550px) {
+        width: auto;
+    }
+
+}
+
+.row14-2{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    width: 40%;
+    justify-content: space-around;
+
+    @media only screen and (max-width: 550px) {
+        width: auto;
+        margin: 1rem 3rem;
+    }
+}
+
+.normalHeadingSkills{
+    color: white;
+    font-size: 3rem;
+    font-weight: 10;
+
+    @media only screen and (max-width: 1900px) {
+        font-size: 2.5rem;
+    }
+
+    @media only screen and (max-width: 1600px) {
+        font-size: 2rem;
+    }
+
+    @media only screen and (max-width: 1300px) {
+        font-size: 1.5rem;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        font-size: 1.3rem;
+    }
+
+    @media only screen and (max-width: 700px) {
+        font-size: 0.9rem;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 1rem;
+    }
+}
+.skillCircle{
+    border-radius: 50%;
+    background-color: #C16E70;
+    width: 18rem;
+    height: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media only screen and (max-width: 1900px) {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    @media only screen and (max-width: 1600px) {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    @media only screen and (max-width: 1300px) {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        width: 7rem;
+        height: 7rem;
+    }
+
+    @media only screen and (max-width: 700px) {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    @media only screen and (max-width: 550px) {
+        width: 7rem;
+        height: 7rem;
+        margin: 0rem 1rem;
+    }
+}
+
+.row15{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row16{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    @media only screen and (max-width: 550px) {
+        flex-direction: column;
+    }
+}
+
+.row17{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+
+    @media only screen and (max-width: 1600px) {
+        margin-top: 1rem;
+    }
+
+    @media only screen and (max-width: 700px) {
+        margin-top: 0.5rem;
+    }
+
+    @media only screen and (max-width: 550px) {
+        flex-direction: column;
+        margin-top: 0;
+    }
+}
+
+.normalHeadingSkillsBlock{
+    color: black;
+    margin: 1rem;
+
+    @media only screen and (max-width: 2000px) {
+        font-size: 2.5rem;
+    }
+
+    @media only screen and (max-width: 1900px) {
+        font-size: 2.2rem;
+    }
+
+    @media only screen and (max-width: 1600px) {
+        font-size: 1.7rem;
+    }
+
+    @media only screen and (max-width: 1300px) {
+        font-size: 1.3rem;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        font-size: 0.9rem;
+        margin: 0.7rem;
+    }
+
+    @media only screen and (max-width: 700px) {
+        margin: 0.4rem;
+        font-size: 0.7rem;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 1rem;
+    }
+}
+
+.skillBlock{
+    background-color: #FFE3E3;
+    border-radius: 1rem;
+    margin: 0rem 1rem;
+
+    @media only screen and (max-width: 2000px) {
+        margin: 0rem 2rem;
+    }
+
+    @media only screen and (max-width: 1900px) {
+        margin: 0rem 1rem;
+    }
+
+    @media only screen and (max-width: 1600px) {
+        margin: 0rem 0.5rem;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        margin: 0rem 0.3rem;
+        border-radius: 0.5rem;
+    }
+
+    @media only screen and (max-width: 550px) {
+        margin: 0.3rem 3.5rem;
+    }
+}
+
