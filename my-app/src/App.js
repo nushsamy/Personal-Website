@@ -1,10 +1,16 @@
 import './Styles/Intro.scss';
-import './Styles/About.scss'
+import './Styles/About.scss';
+import './Styles/Projects.scss';
+
 import './Scripts/carouselAbout.js'
+
 import headshot from './Assets/headshot.jpg';
 import food from './Assets/food.jpg';
 import piano from './Assets/piano.JPG';
 import milo from './Assets/milo.jpg';
+import feaste from './Assets/feaste.png'
+import ehacks from './Assets/ehacks.png';
+import chaching from './Assets/chaching.png'
 
 function App() {
   return (
@@ -46,6 +52,7 @@ function App() {
           </div>
 
         </div>
+
 
         <div className="about">
           <div className="row4">
@@ -133,6 +140,221 @@ function App() {
             </div>
           </div>
 
+        </div>
+
+        <div className="projects">
+          <div className="row11">
+            <div className="lineEmbellish lineEmbellishLeft">
+
+            </div>
+
+            <h2 className="normalHeading normalHeadingProjects">
+              Projects
+            </h2>
+
+            <div className="lineEmbellish lineEmbellishRight">
+
+            </div>
+          </div>
+
+          <div className="projectRow">
+            <div className="projectBox">
+              <h2 className="normalHeading normalHeadingProjectTitle">
+                Feaste
+              </h2>
+
+
+              <div className="projectMain">
+                <div className="projectContext">
+                  <li className="normalBodyProjects">
+                    A web application that is inspired by my own love of cooking, feaste allows you to meal-plan and keep track of groceries using your own recipes.
+                  </li>
+
+                  <li className="normalBodyProjects">
+                    My current project
+                  </li>
+                </div>
+
+                <div className="tags">
+                  <div className="rowTags">
+                    <div className="projectTag">
+                      <h4 className="normalBodyProjects normalBodyProjectsTags">
+                        React.js
+                      </h4>
+                    </div>
+                    <div className="projectTag">
+                      <h4 className="normalBodyProjects normalBodyProjectsTags">
+                        Node.js
+                      </h4>
+                    </div>
+                    <div className="projectTag">
+                      <h4 className="normalBodyProjects normalBodyProjectsTags">
+                        Express.js
+                      </h4>
+                    </div>
+                  </div>
+
+                  <div className="rowTags">
+                    <div className="projectTag">
+                      <h4 className="normalBodyProjects normalBodyProjectsTags">
+                        Figma
+                      </h4>
+                    </div>
+                    <div className="projectTag">
+                      <h4 className="normalBodyProjects normalBodyProjectsTags">
+                        MySQL
+                      </h4>
+                    </div>
+                    <div className="projectTag">
+                      <h4 className="normalBodyProjects normalBodyProjectsTags">
+                        JWT
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div className="imgLine">
+
+              </div>
+
+              <div className="row12">
+                <img src={feaste} className="projectImage"></img>
+              </div>
+            </div>
+
+            <div className="projectBox">
+              <h2 className="normalHeading normalHeadingProjectTitle">
+                Ehacks Website
+              </h2>
+
+              <div className="projectMain">
+                <div className="projectContext">
+                  <li className="normalBodyProjects">
+                    eHacks is a technology and business focused Hackathon. Their website includes user accounts, applications and hackathon information
+                  </li>
+
+                  <li className="normalBodyProjects">
+                    This website was developed by the eHacks development team and includes responsive design, documentation and scalable code.
+                  </li>
+                </div>
+
+                <div className="tags">
+                  <div className="rowTags">
+                    <div className="projectTag">
+                      <h4 className="normalBodyProjects normalBodyProjectsTags">
+                        MongoDB
+                      </h4>
+                    </div>
+                    <div className="projectTag">
+                      <h4 className="normalBodyProjects normalBodyProjectsTags">
+                        Git
+                      </h4>
+                    </div>
+                    <div className="projectTag">
+                      <h4 className="normalBodyProjects normalBodyProjectsTags">
+                        JWT
+                      </h4>
+                    </div>
+                  </div>
+
+                  <div className="rowTags">
+                    <div className="projectTag">
+                      <h4 className="normalBodyProjects normalBodyProjectsTags">
+                        Figma
+                      </h4>
+                    </div>
+                    <div className="projectTag">
+                      <h4 className="normalBodyProjects normalBodyProjectsTags">
+                        React.js
+                      </h4>
+                    </div>
+                    <div className="projectTag">
+                      <h4 className="normalBodyProjects normalBodyProjectsTags">
+                        Node.js
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div className="imgLine">
+
+              </div>
+
+              <div className="row12">
+                <img src={ehacks} className="projectImage"></img>
+              </div>
+            </div>
+
+            <div className="projectBox">
+              <h2 className="normalHeading normalHeadingProjectTitle">
+                ChaChing
+              </h2>
+
+
+              <div className="projectMain">
+                <div className="projectContext">
+                  <li className="normalBodyProjects">
+                    Cha-Ching is a chore app created for Hack Western 7. It is aimed at making the mundane fun, while teaching financial literacy skills.
+                  </li>
+
+                  <li className="normalBodyProjects">
+                    Cha-Ching provides parents with educational tools to help teach financial literacy by doing household chores.
+                  </li>
+                </div>
+
+                <div className="tags">
+                  <div className="rowTags">
+                    <div className="projectTag">
+                      <h4 className="normalBodyProjects normalBodyProjectsTags">
+                        React.js
+                      </h4>
+                    </div>
+                    <div className="projectTag">
+                      <h4 className="normalBodyProjects normalBodyProjectsTags">
+                        Node.js
+                      </h4>
+                    </div>
+                    <div className="projectTag">
+                      <h4 className="normalBodyProjects normalBodyProjectsTags">
+                        Express.js
+                      </h4>
+                    </div>
+                  </div>
+
+                  <div className="rowTags">
+                    <div className="projectTag">
+                      <h4 className="normalBodyProjects normalBodyProjectsTags">
+                        Figma
+                      </h4>
+                    </div>
+                    <div className="projectTag">
+                      <h4 className="normalBodyProjects normalBodyProjectsTags">
+                        MySQL
+                      </h4>
+                    </div>
+                    <div className="projectTag">
+                      <h4 className="normalBodyProjects normalBodyProjectsTags">
+                        JWT
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div className="imgLine">
+
+              </div>
+
+              <div className="row12">
+                <img src={chaching} className="projectImage"></img>
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>
