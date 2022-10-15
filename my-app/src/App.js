@@ -2,6 +2,8 @@ import './Styles/Intro.scss';
 import './Styles/About.scss';
 import './Styles/Projects.scss';
 import './Styles/Skills.scss';
+import './Styles/Experience.scss';
+import './Styles/AdditionalInfo.scss';
 
 import './Scripts/carouselAbout.js'
 
@@ -437,7 +439,7 @@ function App() {
             </div>
           </div>
           <div className="row17">
-          <div className="skillBlock">
+            <div className="skillBlock">
               <h2 className="normalHeading normalHeadingSkills normalHeadingSkillsBlock">
                 CI/CD
               </h2>
@@ -474,8 +476,109 @@ function App() {
             </div>
 
           </div>
+        </div>
 
+        <div className="experience">
+          <div className="row18">
+            <div className="lineEmbellish lineEmbellishLeft">
 
+            </div>
+
+            <h2 className="normalHeading normalHeadingExperience">
+              Experience
+            </h2>
+
+            <div className="lineEmbellish lineEmbellishRight">
+
+            </div>
+          </div>
+
+          <div className="experienceSection">
+            <div className="experienceBox">
+
+              <div className="row19">
+                <h3 className="normalHeadingBodyExperience normalHeadingBodyExperienceTitle">
+                  Software Developer Intern
+                </h3>
+
+                <h3 className="normalHeadingBodyExperience">
+                  MAY 2021 - AUG 2022
+                </h3>
+              </div>
+
+              <div className="experienceContent">
+                <li className="normalHeadingPoint">
+
+                </li>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="additionalInfo">
+          <div className="additionalRow">
+            <h2 className="scriptSkills scriptSkillsRight scriptAdditional">
+              Education
+            </h2>
+            <div className="skillsLineEmbellish">
+
+            </div>
+
+            <div className="educationBox">
+              <h2 className="normalHeading normalHeadingAdditionalBig">
+                Western University
+              </h2>
+
+              <h2 className="normalHeading normalHeadingAdditional">
+                Bachelor of Engineering Science, Software Engineering
+              </h2>
+            </div>
+          </div>
+
+          <div className="additionalRow">
+
+            <div className="awardsBox">
+              <h2 className="normalHeading normalHeadingAdditional normalHeadingAdditionalAwards">
+                2021&nbsp;Proteus&nbsp;Innovation<br />Competition Winner
+              </h2>
+              <h2 className="normalHeading normalHeadingAdditional">
+                Western&nbsp;Scholarship&nbsp;of<br />Excellence
+              </h2>
+              <h2 className="normalHeading normalHeadingAdditional">
+                Summer&nbsp;Undergraduate<br />Research&nbsp;Scholarship
+              </h2>
+            </div>
+            <div className="skillsLineEmbellish">
+
+            </div>
+            <h2 className="scriptSkills scriptSkillsRight scriptAdditional">
+              Awards
+            </h2>
+          </div>
+
+          <div className="additionalRow">
+
+            <h2 className="scriptSkills scriptSkillsRight scriptAdditional">
+              Key&nbsp;Interests
+            </h2>
+            <div className="skillsLineEmbellish">
+
+            </div>
+            <div className="interestsBox">
+              <h2 className="normalHeading normalHeadingAdditional normalHeadingAdditionalAwards">
+               Full&nbsp;Stack&nbsp;Development
+              </h2>
+              <h2 className="normalHeading normalHeadingAdditional">
+                Database&nbsp;Management
+              </h2>
+              <h2 className="normalHeading normalHeadingAdditional">
+                Cloud&nbsp;Computing
+              </h2>
+              <h2 className="normalHeading normalHeadingAdditional">
+                Mobile&nbsp;Development
+              </h2>
+            </div>
+          </div>
         </div>
 
       </div>

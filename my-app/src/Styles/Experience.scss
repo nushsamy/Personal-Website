@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+.row18{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+
+    @media only screen and (max-width: 1300px) {
+        margin-top: 2rem;
+    }
+
+    @media only screen and (max-width: 700px) {
+        margin-top: 1rem;
+    }
+}
+
+.normalHeadingExperience{
+    color: #000000;
+
+    @media only screen and (max-width: 550px) {
+        font-size: 2rem;
+    }
+}
+
+.experienceBox{
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: #91B1CF;
+    border-radius: 2rem;
+    margin: 2rem 5rem;
+
+    @media only screen and (max-width: 1600px) {
+        margin: 1rem 1rem;
+        border-width: 0.1rem;
+        border-radius: 2rem;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        border-width: 0.1rem;
+        border-radius: 1rem;
+    }
+
+    @media only screen and (max-width: 550px) {
+        margin: 3rem;
+    }
+}
+
+.row19{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 2rem;
+
+    @media only screen and (max-width: 1000px) {
+        margin: 0.5rem 1rem;
+    }
+
+    @media only screen and (max-width: 700px) {
+        margin: 0.3rem 0.7rem;
+    }
+
+    @media only screen and (max-width: 550px) {
+        flex-direction: column;
+        margin: 0;
+    }
+
+}
+
+.normalHeadingBodyExperience{
+    font-family: Quicksand;
+    font-size: 2.5rem;
+    font-weight: 250;  
+
+    @media only screen and (max-width: 1900px) {
+        font-size: 2rem;
+    }
+
+    @media only screen and (max-width: 1600px) {
+        font-size: 1.7rem;
+    }
+
+    @media only screen and (max-width: 1300px) {
+        font-size: 1.3rem;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        font-size: 1rem;
+    }
+
+    @media only screen and (max-width: 700px) {
+        font-size: 0.7rem;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 1rem;
+        margin: 0.3rem;
+    }
+}
+
+.normalHeadingBodyExperienceTitle{
+    text-decoration: underline;
+}
