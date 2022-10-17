@@ -14,6 +14,9 @@ import milo from './Assets/milo.jpg';
 import feaste from './Assets/feaste.png'
 import ehacks from './Assets/ehacks.png';
 import chaching from './Assets/chaching.png'
+import email from './Assets/email.png'
+import github from './Assets/github.png'
+import linkedin from './Assets/linkedin.png'
 
 function App() {
   return (
@@ -31,7 +34,7 @@ function App() {
               <h1 className="normalLarge stackedText">
                 Anusha
               </h1>
-              <h1 className="normalLarge stackedText">
+              <h1 className="normalLarge stackedText stackedTextLast">
                 Samarabandu
               </h1>
             </div>
@@ -42,6 +45,20 @@ function App() {
 
           </div>
 
+          <div className="linkRow">
+            <a href='https://github.com/nushsamy' target="_blank">
+              <img src={github} className="icon" />
+            </a>
+
+            <a href='https://www.linkedin.com/in/anusha-samarabandu-5157a21a0/' target="_blank">
+              <img src={linkedin} className="icon" />
+            </a>
+
+            <a href='mailto:anushd.sam@gmail.com'>
+              <img src={email} className="icon" />
+            </a>
+          </div>
+
           <div className="row2">
             <div className="semiCircle">
 
@@ -49,37 +66,49 @@ function App() {
           </div>
 
           <div className="row3">
-            <div className="downArrow">
+            <a href='#toolBarLink'>
+              <div className="downArrow">
 
-            </div>
+              </div>
+            </a>
           </div>
 
         </div>
 
 
         <div className="about">
-          <div className="row4">
-            <h2 className="normalHeading normalHeadingBar">
-              About Me
-            </h2>
+          <a id="toolBarLink">
+            <div className="row4">
+              <a href='#aboutLink' className="toolBar">
+                <h2 className="normalHeading normalHeadingBar">
+                  About Me
+                </h2>
+              </a>
 
-            <h2 className="normalHeading normalHeadingBar">
-              Projects
-            </h2>
+              <a href="#projectsLink" className="toolBar">
+                <h2 className="normalHeading normalHeadingBar">
+                  Projects
+                </h2>
+              </a>
 
-            <h2 className="normalHeading normalHeadingBar">
-              Resume
-            </h2>
-          </div>
+              <a href='#resumeLink' className='toolBar'>
+                <h2 className="normalHeading normalHeadingBar">
+                  Resume
+                </h2>
+              </a>
+            </div>
+          </a>
 
           <div className="row5">
             <div className="lineEmbellish lineEmbellishLeft">
 
             </div>
 
-            <h2 className="normalHeading normalHeadingAbout">
-              About Me
-            </h2>
+            <a id="aboutLink">
+              <h2 className="normalHeading normalHeadingAbout">
+                About Me
+              </h2>
+            </a>
 
             <div className="lineEmbellish lineEmbellishRight">
 
@@ -151,9 +180,11 @@ function App() {
 
             </div>
 
-            <h2 className="normalHeading normalHeadingProjects">
-              Projects
-            </h2>
+            <a id="projectsLink">
+              <h2 className="normalHeading normalHeadingProjects">
+                Projects
+              </h2>
+            </a>
 
             <div className="lineEmbellish lineEmbellishRight">
 
@@ -362,9 +393,11 @@ function App() {
 
         <div className="skills">
           <div className="row13">
-            <h2 className="scriptSkills scriptSkillsLeft">
-              Languages
-            </h2>
+            <a id="resumeLink">
+              <h2 className="scriptSkills scriptSkillsLeft">
+                Languages
+              </h2>
+            </a>
             <div className="skillsLineEmbellish">
 
             </div>
@@ -506,9 +539,124 @@ function App() {
                 </h3>
               </div>
 
+              <div className="row20">
+                <h3 className="normalHeadingBodyExperience normalHeadingExperienceCompany">
+                  J.D. Power | London, ON
+                </h3>
+              </div>
+
               <div className="experienceContent">
                 <li className="normalHeadingPoint">
+                  Designed Java software solutions using Kubernetes, Docker, Jenkins, and Git among various cloud technologies
+                </li>
 
+                <li className="normalHeadingPoint">
+                  Handled daily data team support tasks including SQL scripting and maintaining and troubleshooting ETLs
+                </li>
+
+                <li className="normalHeadingPoint">
+                  Implemented major design changes within FCA Stellantis dataflows for Chrysler, Ram, Jeep, Dodge, Alfa Romeo, and Fiat
+                </li>
+
+                <li className="normalHeadingPoint">
+                  Investigated and resolved over 50 bugs, enhancing the performance and functionality of enterprise-level applications
+                </li>
+              </div>
+            </div>
+          </div>
+
+          <div className="experienceSection">
+            <div className="experienceBox">
+
+              <div className="row19">
+                <h3 className="normalHeadingBodyExperience normalHeadingBodyExperienceTitle">
+                  Software Developer
+                </h3>
+
+                <h3 className="normalHeadingBodyExperience">
+                  SEPT 2021 - APRIL 2022
+                </h3>
+              </div>
+
+              <div className="row20">
+                <h3 className="normalHeadingBodyExperience normalHeadingExperienceCompany">
+                  eHacks | London, ON
+                </h3>
+              </div>
+
+              <div className="experienceContent">
+                <li className="normalHeadingPoint">
+                  Collaborated with team members to design and develop the eHacks website using the MERN stack
+                </li>
+
+                <li className="normalHeadingPoint">
+                  Participated in agile development, creating quality software and a successful project delivery
+                </li>
+              </div>
+            </div>
+          </div>
+
+          <div className="experienceSection">
+            <div className="experienceBox">
+
+              <div className="row19">
+                <h3 className="normalHeadingBodyExperience normalHeadingBodyExperienceTitle">
+                  Director of Education
+                </h3>
+
+                <h3 className="normalHeadingBodyExperience">
+                  JUNE 2020 - APRIL 2021
+                </h3>
+              </div>
+
+              <div className="row20">
+                <h3 className="normalHeadingBodyExperience normalHeadingExperienceCompany">
+                  Western AI | London, ON
+                </h3>
+              </div>
+
+              <div className="experienceContent">
+                <li className="normalHeadingPoint">
+                  Created curriculums, machine learning models and interactive code tutorials to teach machine learning and empower the members of Western AI with knowledge for their personal growth
+                </li>
+
+                <li className="normalHeadingPoint">
+                  Taught ethics and business applications of AI to broaden the range of students with opportunities in Western AI
+                </li>
+              </div>
+            </div>
+          </div>
+
+          <div className="experienceSection">
+            <div className="experienceBox">
+
+              <div className="row19">
+                <h3 className="normalHeadingBodyExperience normalHeadingBodyExperienceTitle">
+                  Undergraduate Summer Research Intern
+                </h3>
+
+                <h3 className="normalHeadingBodyExperience">
+                  MAY 2020 - AUG 2020
+                </h3>
+              </div>
+
+              <div className="row20">
+                <h3 className="normalHeadingBodyExperience normalHeadingExperienceCompany">
+                  Western University | London, ON
+                </h3>
+              </div>
+
+              <div className="experienceContent">
+                <li className="normalHeadingPoint">
+                  Designed preprocessing code using Python to optimize the performance of deep neural networks on human activity recognition
+                </li>
+
+                <li className="normalHeadingPoint">
+                  Analyzed Convolutional Neural Network performance to refine proceeding trials for better results
+                </li>
+
+                <li className="normalHeadingPoint">
+                  Initiated self-guided learning required to successfully complete remote work
                 </li>
               </div>
             </div>
@@ -566,7 +714,7 @@ function App() {
             </div>
             <div className="interestsBox">
               <h2 className="normalHeading normalHeadingAdditional normalHeadingAdditionalAwards">
-               Full&nbsp;Stack&nbsp;Development
+                Full&nbsp;Stack&nbsp;Development
               </h2>
               <h2 className="normalHeading normalHeadingAdditional">
                 Database&nbsp;Management

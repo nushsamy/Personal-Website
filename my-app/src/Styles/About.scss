@@ -56,6 +56,17 @@
     color: #FFFFFF;
 }
 
+.toolBar{
+    width: 30%;
+    text-decoration: none;
+}
+
+.toolBar:hover{
+    background-color: #D09092;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
 
 .row5{
     display: flex;
